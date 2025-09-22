@@ -118,4 +118,5 @@ See [`aws-output-SAMPLE.txt`](aws-output-SAMPLE.txt) for an example. Outputs inc
 - When using Org mode, ensure each target account has a role with the proper trust policy to allow assumption from your caller account
 - If using Org mode, if the permissions to ListAccounts do not exist, the script automatically drops to non-Org mode
 - NAT and DTO suage are cached during a run; cahces are deleted after a successful run
+- This script is not officially supported by or maintained by Zscaler. This project was created due to customer demand for getting help getting egress traffic
 - If a run fails, you can resume later without re-querying prior months
