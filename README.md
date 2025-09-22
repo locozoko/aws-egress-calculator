@@ -6,7 +6,8 @@ It supports single-account mode or multi-account mode via **AWS Organizations** 
 A sample output file is included in this repository:  
 [`aws-output-SAMPLE.txt`](aws-output-SAMPLE.txt)
 
-[![AWS Egress Calculator Demo Video](https://cdn.loom.com/sessions/thumbnails/a6f3270e3e5947e78e9d39a8f12990d1-ee6a834587ceee13-full-play.gif)](https://www.loom.com/share/a6f3270e3e5947e78e9d39a8f12990d1?sid=e52db9d2-d0d1-4c3a-94bd-91788fa11a0e){:target="_blank"}
+Right-click and open in new tab to watch the demo video:
+[![AWS Egress Calculator Demo Video](https://cdn.loom.com/sessions/thumbnails/a6f3270e3e5947e78e9d39a8f12990d1-ee6a834587ceee13-full-play.gif)](https://www.loom.com/share/a6f3270e3e5947e78e9d39a8f12990d1?sid=e52db9d2-d0d1-4c3a-94bd-91788fa11a0e)
 
 ---
 
