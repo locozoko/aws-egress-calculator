@@ -1,0 +1,93 @@
+
+[✓] Output will also be saved to: aws-output-SAMPLE.txt
+
+
+[!] Note: DTO metrics are pulled from the authenticated account. If you want full Org-wide DTO analysis, run the script from the management (payer) account with billing permissions.
+
+
+Select a region to query:
+0) All regions
+1) ap-south-1
+2) eu-north-1
+3) eu-west-3
+4) eu-west-2
+5) eu-west-1
+6) ap-northeast-3
+7) ap-northeast-2
+8) me-south-1
+9) ap-northeast-1
+10) me-central-1
+11) ca-central-1
+12) sa-east-1
+13) ap-southeast-1
+14) ap-southeast-2
+15) eu-central-1
+16) us-east-1
+17) us-east-2
+18) us-west-1
+19) us-west-2
+
+[!] Note: DTO (Data Transfer Out) metrics are only collected from the current account.
+    To get full DTO across all Org accounts, run this script from the AWS Organizations management account.
+
+[!] Failed to list AWS accounts via Organizations: An error occurred (AccessDeniedException) when calling the ListAccounts operation: You don't have permissions to access this resource.
+
+Processing month: 2024-09 (1/13) [##----------------------------] Est. time remaining: 51 sec
+Processing month: 2024-10 (2/13) [####--------------------------] Est. time remaining: 43 sec
+Processing month: 2024-11 (3/13) [######------------------------] Est. time remaining: 39 sec
+Processing month: 2024-12 (4/13) [#########---------------------] Est. time remaining: 34 sec
+Processing month: 2025-01 (5/13) [###########-------------------] Est. time remaining: 30 sec
+Processing month: 2025-02 (6/13) [#############-----------------] Est. time remaining: 26 sec
+Processing month: 2025-03 (7/13) [################--------------] Est. time remaining: 22 sec
+Processing month: 2025-04 (8/13) [##################------------] Est. time remaining: 18 sec
+Processing month: 2025-05 (9/13) [####################----------] Est. time remaining: 15 sec
+Processing month: 2025-06 (10/13) [#######################-------] Est. time remaining: 11 sec
+Processing month: 2025-07 (11/13) [#########################-----] Est. time remaining: 7 sec
+Processing month: 2025-08 (12/13) [###########################---] Est. time remaining: 3 sec
+Processing month: 2025-09 (13/13) [##############################] Est. time remaining: 0 sec
+
+=== ORG NAT + DTO Usage Summary ===
+
+
+=== Analysis Summary ===
+- AWS Organizations mode: Yes
+- NAT Gateway Analysis: Yes
+- DTO Analysis: Yes
+- AWS Accounts analyzed: REMOVED, REMOVED
+- Regions analyzed: us-east-1
+
+[!] Reminder: DTO data shown below is based on billing visibility from the current account session. For Org-wide DTO totals, run from the management account.
+
+
+=== DTO vs NAT Upload Comparison ===
+
+- Total DTO (Data Transfer Out) traffic over last 12 months: 1510.74 GB
+- Average monthly DTO traffic for quoting: 116.21 GB
+- Difference (DTO vs NAT Egress): 1109.64 GB
+
+=== NAT Gateway Traffic Breakdown ===
+- Total NAT Gateway Upload (egress) over last 12 months: 401.10 GB
+- Average monthly NAT Gateway Upload: 44.57 GB
+- Total NAT Gateway Download (ingress) over last 12 months: 404.82 GB
+- Average monthly NAT Gateway Download: 44.98 GB
+
+- Total NAT Gateway traffic over last 12 months: 805.92 GB
+- Average monthly NAT Gateway traffic for quoting: 89.55 GB
+
+=== Detailed NAT Gateway Traffic for Account: REMOVED ===
+Month      2024-10  2024-11  2024-12  2025-01  2025-02  2025-03  2025-04  2025-05  2025-06  2025-07  2025-08  2025-09
+Region                                                                                                               
+us-east-1      0.0      0.0      0.0     2.26     0.23    23.06     53.7    23.55    31.84    73.32   447.34    78.28
+Total          0.0      0.0      0.0     2.26     0.23    23.06     53.7    23.55    31.84    73.32   447.34    78.28
+
+[✓] Grand Total NAT traffic for REMOVED: 733.58 GB
+
+=== Detailed NAT Gateway Traffic for Account: REMOVED ===
+Month      2024-10  2024-11  2024-12  2025-01  2025-02  2025-03  2025-04  2025-05  2025-06  2025-07  2025-08  2025-09
+Region                                                                                                               
+us-east-1      0.0      0.0      0.0     7.91     9.15     8.45     8.41     8.07     8.27     9.07     9.63     3.38
+Total          0.0      0.0      0.0     7.91     9.15     8.45     8.41     8.07     8.27     9.07     9.63     3.38
+
+[✓] Grand Total NAT traffic for REMOVED: 72.34 GB
+
+[✓] Deleted cache files after successful run.
